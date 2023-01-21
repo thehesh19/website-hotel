@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+}
+.full{
+    z-index: 1;
+    background-color: white;
+    height: 115px;
+    position: sticky;
+    position: -webkit-sticky;
+    display: flex;
+    top: 0;
+}
+nav{
+    margin: 55px 0 0 250px;
+    height: 100px;
+}
+.check{
+    padding: 20px;
+    color:#e85d42;
+    background-color: #f3f3f2;
+}
+nav a:hover{
+    border-bottom: 2px #e85d42 solid ;
+}
+nav a{
+    text-decoration: none;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: black;
+    margin-left: 50px;
+    padding-bottom: 5px;
+    
+}
+.full img{
+    margin: 10px 0 0 120px;
+    width: 110px;
+    height: 100px; 
+}
+.sitting-vue {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./sitting-vue.jpg');
+    background-size:cover;
+    
+  
+}
+.sitting-vue h6{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing:5px;
+}
+.sitting-vue h2{
+    width: 100px;
+    color: white;
+    font-size: 80px;
+    font-weight: lighter;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.writing{
+    padding: 100px 0 0 100px;
+}
+.sitting-vue button{
+    position: fixed;
+    font-size: 13px;
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #e85d42;
+    border: none;
+    color: white;
+    right: 50px;
+    top: 170px;
+    cursor: pointer;
+}
+.paragraph h2{
+    font-weight: lighter;
+    width: 600px;
+    font-size: 30px;
+    line-height:40px;
+    opacity: 0.7;
+    margin:120px 0 80px 190px;
+}
+.paragraph1{
+    display: flex;
+    width: 65%;
+    margin-left: 30%;
+}
+.paragraph1 p{
+    margin-right: 100px;
+    color: rgb(80, 80, 80);
+    font-size: 15px;
+    line-height: 29px;
+    font-family: Arial, sans-serif;
+    font-weight: lighter;
+}
+.Dubrovnik-vue{
+    margin-top: 40px;
+    width: 45%;
+    height: 300px;
+    padding: 20.5vh 9.09091%;
+    background-color: #f3f3f2;
+    font-size: 16px;
+    line-height: 29px;
+    color:rgb(80, 80, 80);
+}
+.Dubrovnik-vue a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.city{
+    margin: 100px 0 0 10%;
+    width: 90%;
+    display: flex;
+}
+.Dubrovnik{
+    font-size: 10px;
+    letter-spacing: 7px;
+    color: rgb(30, 30, 30);
+    
+}
+.photo img{
+    height: 610px;
+    width: 650px;
+}
+.cities{
+    margin: 100px 10% 0 0;
+    width: 90%;
+    display: flex;
+}
+
+.images{
+    margin: 150px 0 0 185px;
+    display: flex;
+}
+.images img{
+    width: 350px;
+    height: 500px;
+    cursor: pointer;
+}
+.images a {
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    font-size: 25px;
+}
+.image-2{
+    margin: 0 50px 0 50px;
+}
+.EndPage{
+	margin-top: 60px;
+    padding-top: 30px;
+    background-color: #f3f3f2;
+    padding-bottom: 20px;
+  }
+.Hello{
+    padding-top: 100px;
+    display: flex;
+}
+.Hello .Weather{
+    margin: 0 100px 0 100px;
+}
+.Hello .contact{
+    margin-left: 300px;
+    width: 600px;
+}
+.Hello h4{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.Hello p{
+    color: #89868b;
+}
+.media img{
+    height: 55px;
+    cursor: pointer;
+    width: 40px;
+}
+.contact input{
+    margin-top: 20px;
+    border: 0 ;
+    background-color: #f3f3f2;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    
+}
+.detailsOfWebsite a:hover{
+    color: white;
+}
+.detailsOfWebsite{
+    margin: 50px 0 0 50px;
+}
+.detailsOfWebsite a{
+    font-size: 13px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #89868b;
+    
+}
